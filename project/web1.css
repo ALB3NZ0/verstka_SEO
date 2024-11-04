@@ -1,0 +1,696 @@
+::before
+::after{
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+
+.container{
+    max-width: 1440px;
+    margin: 0%;
+    padding: 0 170px;
+}
+
+
+.header{
+    padding-top: 15px;
+
+}
+
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.logo{
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-color: #5E81FE;
+    border-radius: 50%;
+}
+
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-item{
+
+}
+
+.nav-link{
+    color: #000;
+}
+
+.nav-link.active{
+    color: #5E81FE;
+}
+
+
+.button{
+    width: 113px;
+    height: 43px;
+    background-color: #D2E1FF;
+    border-style: none;
+}
+
+.menu-logo{
+
+    width: 162px;
+    height: 17px;
+    top: 32px;
+    left: 1004px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 400px;
+}
+
+.img{
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+li {
+    text-decoration: none;
+}
+
+.black{
+    color: #3A79FF;
+}
+
+hr{
+    border: 1px solid #D8E3FE
+}
+
+.hero-text{
+    height: 266px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column; /* Сложить элементы вертикально */
+    align-items: center;
+    position: relative
+}
+
+
+.recatngle{
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+    height: 550px;
+    background-image: url(./image/chart.png);
+    background-position: center calc(100% - 1px);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.linee{
+    background: url("image/Vector\ \(3\).png");
+}
+
+.lineee{
+    background: url("image/Vector\ \(4\).png");
+}
+
+.customers{
+    width: 1440px;
+    height: 146px;
+    top: 650px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+
+.imga{
+    margin-right: 150px;
+}
+
+
+.saa{
+    font-style: Quicksand;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    text-align: center;
+}
+
+
+.plan_and_message {
+    width: 1440px;
+    height: 776px;
+    top: 797px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.text_and_cta {
+    width: 413px;
+    top: 1005px;
+    left: 271px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 300px; 
+}
+
+.group27, .group43 {
+    width: 130.08px;
+    height: 43px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.group27 {
+    background: #4C85FF;
+    color: white;
+}
+
+.image_container {
+    margin-left: 20px;
+}
+
+.cta_group {
+    display: flex;
+    align-items: center;
+}
+
+.cta_item {
+    
+}
+.img2{
+    position: absolute;
+    padding-top: 200px;
+}
+
+.imga1{
+    position: absolute;
+    padding-top: 50px;
+    width: 1500px;
+    height: auto;
+    padding-right: 35px;
+    text-align: center;
+}
+
+
+.polygon {
+    vertical-align: middle; /* выравниваем изображение по вертикали */
+    padding-left: 10px;
+}
+
+
+.imgcontianer{
+    position: relative;
+    width: 653px;
+    height: 436px;
+    top: 967px;
+    left: 739px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.img1{
+    padding-top: 300px;
+}
+
+
+.asd{
+    width: 653px;
+    height: 436px;
+    top: 967px;
+    left: 739px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.sui_container {
+    width: 1441px;
+    height: 885px;
+    top: 1575px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 100px;
+}
+
+.su {
+    width: 1201px;
+    height: 573px;
+    top: 1716px;
+    left: 126px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.cont {
+    width: 761px;
+    height: 543px;
+    top: 1746px;
+    left: 340px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 200px;
+}
+
+.features {
+    display: flex; /* Добавляем flex-контейнер для рядового расположения */
+    width: 1200px;
+    height: 254px;
+    top: 1900px;
+    left: 340px;
+    gap: 20px; /* Добавляем расстояние между дивами */
+    opacity: 0px;
+    padding-left: 100px;
+}
+
+.choo,
+.chooo {
+    width: 140px;
+    height: 254px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 20px; /* Добавляем отступы для выравнивания */
+    text-align: center; 
+    
+}
+
+.choo {
+    margin-left: 50px;
+}
+
+.immg {
+    position: relative;
+    padding-top: 30px;
+}
+
+
+.blue{
+    color: #3A79FF;
+
+}
+
+.red{
+    background: #FFD7D7;
+    border-style: none;
+    width: 120px;
+}
+
+
+.but{
+    width: 400px;
+    height: 43px;
+    top: 2246px;
+    left: 552px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 450px;
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con {
+    display: flex;
+    width: 100%;
+}
+
+.mes, .aqw {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.mes .content::before, .aqw .content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.mes .content::before {
+    left: 0;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+
+.aqw .content::before {
+    right: 0;
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+}
+
+.text1, .text2 {
+
+    color: white;
+    font-size: 24px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+
+
+.kris{
+    width: 100%;
+    height: 865px;
+    top: 2803px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5F8FF;
+
+}
+
+.qw{
+    width: 400px;
+    height: 130px;
+    top: 2907px;
+    left: 594px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3D4F9F;
+    padding-left: 800px;
+    padding-top: 100px;
+}
+
+.df{
+    width: 1000px;
+    height: 394px;
+    top: 3061px;
+    left: 241px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3D4F9F;
+    padding-left: 300px;
+    background-color: white;
+    
+}
+
+.bu{
+    width: 113px;
+    height: 43px;
+    background-color: #D2E1FF;
+    border-style: none;
+}
+
+.messi{
+    width: 100%;
+    height: 480px;
+    top: 3669px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.ms{
+
+    height: 261.55px;
+    top: 3778.23px;
+    left: 276px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.lm{
+    width: 333px;
+    height: 187.39px;
+    top: 3815.31px;
+    left: 276px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 200px;
+}
+
+
+
+.asdd{
+    width: 1440px;
+    height: 964px;
+    top: 4149px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+
+.cry{
+    height: 447px;
+    top: 5114px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.zxc{
+    height: 194px;
+    top: 5205px;
+    left: 364px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.butt{
+    width: 113px;
+    height: 43px;
+    background-color: #D2E1FF;
+    border-style: none;
+    
+}
+
+.ankara{
+    height: 332px;
+    top: 5562px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 100px;
+    padding-left: 500px;
+}
+
+
+.an{
+    width: 887px;
+    height: 95px;
+    top: 5680px;
+    left: 276px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.buu{
+    width: 184px;
+    height: 59px;
+    top: 5698px;
+    left: 979px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+@media(max-width: 500px){
+body,
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+main{
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .logo{
+        width: 15px;
+        height: 15px;
+
+    }
+    .header{
+        width: 430px;
+    }
+    .header-nav{
+        gap: 0px;
+    }
+    .nav{
+        font-size: 10px;
+    }
+    .nav-list{
+        column-gap: 0px;
+    }
+    .nav-item{
+        margin: 0 0 0 5px;
+    }
+    .menu-logo{
+        width:60px;
+        padding-left: 0px;
+        left: 0;
+    }
+    .container{
+        padding: 0px;
+    }
+    .menu-logo img {
+        width: 8px;
+        height: 8px;
+    }
+    .menu-logo img:nth-child(1) {
+        width: 8px;
+        height: 8px;
+        margin: 0 0 0 10px;
+    }
+    .button{
+        font-size: 12px;
+        width: 80px;
+        margin: 0 0 0 0;
+    }
+    .img{
+        margin: 0px;
+    }
+    .test1{
+        width: 100%;
+    }
+    .customers{
+        padding: 0px;
+        width: 440px;
+        height: 20px;
+    }
+    .imga{
+        width: 70px;
+        margin: 0px;
+        padding: 0 3px 0 0;
+    }
+    .plan_and_message{
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+    }
+    .text_and_cta{
+        width: 430px;
+        padding: 20px 0 0 20px;
+    }
+    .img1{
+        padding: 0px;
+        width: 390px;
+        margin: 0 0 0 -40px;
+    }
+    .img2{
+        padding: 400px 0 0 0;
+    }
+    .p10{
+        width: 200px;
+        margin:0  0 0 -420px;
+    }
+    .h10{
+        margin: 0 0 0 -420px;
+    }
+    .cont{
+        padding: 0px;
+    }
+    .sui_container{
+        width: 430px;
+        padding: 0px;
+        height: 1600px;
+    }
+    .features{
+        width: 300px;
+        flex-direction: column;
+        padding: 0 0 0 70px;
+    }
+    .chooo{
+        margin: 0 0 0 42px;
+    }
+    .qw{
+        padding: 20px 0 0 50px;
+    }
+    .df{
+        width: 400px;
+        margin: 0 0 0 -400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .df img {
+        width: 400px;
+    }
+    .df h1{
+        width: 400px;
+    }
+    .p11{
+        width: 400px;
+    }
+    .div10{
+        width: 400px;
+    }
+    .ms{
+        padding: 0px;
+        flex-direction: column;
+    }
+    .lm{
+        padding: 0px;
+    }
+    .img10{
+        width: 400px;
+    }
+    .img11{
+        margin: 0 0 0 -600px;
+        width: 400px;
+    }
+    .asdd{
+        height: 600px;
+    }
+    .div11{
+        margin: 0 0 0 -800px;
+    }
+    .ankara{
+        padding: 0px;
+    }
+    .an{
+        width: 400px;
+        flex-direction: column;
+
+    }
+    .div12{
+        flex-direction: column;
+    }
+    header{
+        width: 430px;
+    }
+    .qw{
+        padding: 0px;
+    }
+    .but{
+        padding: 1000px 0 0 0;
+    }
+    .con{
+        width: 390px;
+    }
+    .cry{
+        width: 390px;
+    }
+    .asdd{
+        width: 420px;
+    }
+    .messi{
+        width: 420px;
+    }
+    .cont{
+        width: 390px;
+    }
+}
